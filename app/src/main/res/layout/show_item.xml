@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:id="@+id/show_ll"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/show_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aa"/>
+    <tv.danmaku.ijk.media.widget.media.IjkVideoView
+        android:id="@+id/show_ijkPlayer"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+</LinearLayout>
